@@ -1,0 +1,41 @@
+{
+  "title":"A qual casa de Hogwarts você pertence ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual dessas cores você prefere ?",
+      "options":[
+        {"id": 1, "name":"Amarelo", "alias":"L"},
+        {"id": 2, "name":"Azul", "alias":"C"},
+        {"id": 3, "name":"Verde", "alias":"S"},
+        {"id": 4, "name":"Vermelho", "alias":"G"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual a sua maior qualidade ?",
+      "options":[
+        {"id": 1, "name":"Coragem", "alias":"G"},
+        {"id": 2, "name":"Honestidade", "alias":"L"},
+        {"id": 3, "name":"Inteligência", "alias":"C"},
+        {"id": 4, "name":"Dedicação", "alias":"S"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Qual o seu maior defeito ?",
+      "options":[
+        {"id": 1, "name":"Dependência de outros", "alias":"L"},
+        {"id": 2, "name":"Inprudência", "alias":"G"},
+        {"id": 3, "name":"Insensibilidade", "alias":"C"},
+        {"id": 4, "name":"Egoísmo", "alias":"S"}
+      ]
+    }
+  ],
+  "results":{
+    "G": "Você pertence à Grifinória",
+    "L": "Você pertence à Lufa-Lufa",
+    "C": "Você pertence à Corvinal",
+    "S": "Você pertence à Sonserina"
+  }
+}
